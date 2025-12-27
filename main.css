@@ -4,6 +4,9 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+body {
+  width: 1902px;
+}
 a {
   text-decoration-line: none;
 }
@@ -12,7 +15,8 @@ ol {
   list-style-type: none;
 }
 .container {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 4546px;
   color: #fff;
 }
@@ -171,10 +175,9 @@ header {
   position: absolute;
   top: 1200px;
   left: 741px;
-  right: 741px;
+
   bottom: 338px;
   display: flex;
-  width: 1920px;
 }
 .title-of-sec2 {
   width: 436px;
@@ -248,71 +251,197 @@ header {
   display: flex;
   position: absolute;
   flex-direction: column;
-  top: 1700px; 
+  top: 1700px;
   width: 1920px;
   height: 639px;
   background-image: url(./images/Picture\ →\ G70e_m70_BEV_sedan_ext_seveneightsfront_architecture_standing_clean-1_3to1.svg);
 }
-.info-sec3{
+.info-sec3 {
   width: 369px;
   position: absolute;
   top: 221px;
   left: 204px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  
-}
-.title-of-sec3{
-  display: flex;
   flex-direction: column;
-  width: 637px;
-height: 61px;
-font-family: Roboto;
-font-weight: 300;
-font-style: Light;
-font-size: 45px;
-color: #fff;
-line-height: 62px;
-letter-spacing: 0%;
-vertical-align: middle;
-
-
-
 }
-.title-2-of-sec-3{
+.title-of-sec3 {
   display: flex;
+  row-gap: 32px;
+  flex-direction: row;
+  justify-content: start;
+  width: 637px;
+  height: 61px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 45px;
+  color: #fff;
+  line-height: 62px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.title-2-of-sec-3 {
+  display: flex;
+
   flex-direction: column;
   width: 50px;
-height: 30px;
-font-family: Roboto;
-font-weight: 300;
-font-style: Light;
-font-size: 18.7px;
-color: #fff;
-line-height: 30px;
-letter-spacing: 0%;
-vertical-align: middle;
-
+  height: 30px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 18.7px;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 32px;
 }
-.btn-of-sec3{
+.btn-of-sec3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 23px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: #f2f2f2;
+  line-height: 26px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding: 26px 79px;
+  border: 1px solid #fff;
+}
+
+.sec4 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 2400px;
+  width: 1920px;
+  height: 639px;
+  background-image: url(./images/Picture\ →\ g60_ice_home-teaser_ext_top-view-driving_titan-bronze_3to1.svg);
+}
+.info-sec4 {
+  width: 369px;
+  position: absolute;
+  top: 221px;
+  left: 204px;
   display: flex;
   flex-direction: column;
+}
+.title-of-sec4 {
+  display: flex;
+  row-gap: 32px;
+  flex-direction: row;
+  justify-content: start;
+  width: 637px;
+  height: 61px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 45px;
+  color: #fff;
+  line-height: 62px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.title-2-of-sec-4 {
+  display: flex;
+  width: 50px;
+  height: 30px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 18.7px;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 100px;
+}
+.btn-of-sec4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 120px;
-height: 23px;
-font-family: Roboto;
-font-weight: 500;
-font-style: Medium;
-font-size: 16px;
-color: #f2f2f2;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-padding: 16px 72px;
-border: 1px solid #fff;
+  height: 23px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: #f2f2f2;
+  line-height: 26px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding: 26px 79px;
+  border: 1px solid #fff;
+}
 
+.sec5 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 3100px;
+  width: 1920px;
+  height: 639px;
+  background-image: url(./images/Picture\ →\ g60_bev_mp_home-teaser_ext_3-4-front-view-still_3to1.svg);
+}
+.info-sec5 {
+  width: 369px;
+  position: absolute;
+  top: 221px;
+  left: 204px;
+  display: flex;
+  flex-direction: column;
+}
+.title-of-sec5 {
+  display: flex;
+  row-gap: 32px;
+  flex-direction: row;
+  justify-content: start;
+  width: 637px;
+  height: 61px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 45px;
+  color: #fff;
+  line-height: 62px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.title-2-of-sec-5 {
+  display: flex;
 
-
+  flex-direction: row;
+  width: 50px;
+  height: 30px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 18.7px;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 100px;
+}
+.btn-of-sec5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 23px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: #f2f2f2;
+  line-height: 26px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding: 26px 79px;
+  border: 1px solid #fff;
 }
